@@ -1,0 +1,77 @@
+cff-version: 1.2.0
+message: "If you use this dataset, please cite it as below."
+title: "GYN-OBV: Goiânia Open Buildings Validation dataset"
+type: dataset
+version: 1.0.0
+date-released: "2026-11-01"
+license: CC-BY-4.0
+repository-code: "https://github.com/luizmlpascoal/geoinfo-dataset-gyn_obv"
+abstract: >-
+  Building-level visual validation and typology labels (16 classes, construction-standard
+  flag and year of emergence) for 55,590 Google Open Buildings v3 footprints lying outside
+  the municipal lot base or on lots registered as vacant in Goiânia, Brazil. Labels were
+  produced by trained inspectors on Google Earth historical imagery and Street View and
+  approved by a supervisor. No owner, cadastral or address information is included.
+keywords:
+  - open building footprints
+  - visual validation
+  - building typology
+  - cadastre
+  - Goiânia
+  - GeoAI
+authors:
+  - family-names: Teixeira
+    given-names: Lana Mara Silva
+    email: lanamarast@gmail.com
+  - family-names: Ferreira
+    given-names: Thiago Honorato
+    email: thiago.honorato@discente.ufg.br
+  - family-names: Pascoal
+    given-names: Luiz Mário Lustosa
+    email: luizmlpascoal@gmail.com
+  - family-names: Oliveira
+    given-names: Sávio Salvarino Teles de
+    email: savioteles@ufg.br
+  - family-names: Camilo Junior
+    given-names: Celso Gonçalves
+    email: celsocamilo@ufg.br
+  - family-names: Silvério
+    given-names: Renato Gomes
+    email: renatogomessilverio@gmail.com
+  - family-names: Andrade
+    given-names: Tharles de Sousa
+    email: irtharles@gmail.com
+references:
+  - type: data
+    title: "Open Buildings, version 3 polygons"
+    authors:
+      - name: "Google Research"
+    url: "https://sites.research.google/gr/open-buildings/"
+    license: CC-BY-4.0
+  - type: article
+    title: "Continental-scale building detection from high resolution satellite imagery"
+    authors:
+      - family-names: Sirko
+        given-names: Wojciech
+      - family-names: Kashubin
+        given-names: Sergii
+      - family-names: Ritter
+        given-names: Marvin
+      - family-names: Annkah
+        given-names: Abigail
+      - family-names: Bouchareb
+        given-names: Yasser Salah Eddine
+      - family-names: Dauphin
+        given-names: Yann
+      - family-names: Keysers
+        given-names: Daniel
+      - family-names: Neumann
+        given-names: Maxim
+      - family-names: Cisse
+        given-names: Moustapha
+      - family-names: Quinn
+        given-names: John
+    year: 2021
+    identifiers:
+      - type: other
+        value: "arXiv:2107.12283"

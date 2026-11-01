@@ -1,0 +1,19 @@
+GYN-OBV: Goiânia Open Buildings Validation dataset
+Copyright 2026 the authors (CEIA, Universidade Federal de Goiás). Data licensed under CC BY 4.0 (LICENSE); scripts under MIT (LICENSE-CODE).
+
+This dataset is a derivative of Google Open Buildings v3 (Google Research).
+  Source: https://sites.research.google/gr/open-buildings/
+  Earth Engine: https://developers.google.com/earth-engine/datasets/catalog/GOOGLE_Research_open-buildings_v3_polygons
+  Licence: Google offers Open Buildings under CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/) or
+  ODbL v1.0 (https://opendatacommons.org/licenses/odbl/1-0/) at the user's choice. This derivative uses it
+  under CC BY 4.0. Building outlines, plus_code, confidence and area_m2 come from that source.
+  Citation: W. Sirko, S. Kashubin, M. Ritter, A. Annkah, Y. S. E. Bouchareb, Y. Dauphin, D. Keysers, M. Neumann,
+  M. Cisse and J. A. Quinn. "Continental-scale building detection from high resolution satellite imagery."
+  arXiv:2107.12283, 2021.
+
+Administrative region and neighbourhood names: Mapa Urbano Básico Digital de Goiânia (MUBDG), Prefeitura de Goiânia.
+
+Class labels, construction-standard flag and year of emergence: visual interpretation by the authors of Google Earth
+historical imagery and Street View. No Google Earth or Street View imagery is redistributed.
+
+No warranty: the data are provided "as is", as stated in Section 5 of CC BY 4.0.

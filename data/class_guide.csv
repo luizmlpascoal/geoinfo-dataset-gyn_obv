@@ -1,0 +1,17 @@
+class_code,class_label,meaning_en,meaning_pt,group,footprints
+0,FALSO_POLIGONO,No building (false polygon),Sem edificação (falso polígono),Data quality,1737
+1,CASA_TERREA,Single-storey house,Casa térrea,Residential,30808
+2,CASA_COND_FECHADO,House in a gated community,Casa em condomínio fechado,Residential,2632
+3,EDIFICIO_RESIDENCIAL,Residential building,Edifício residencial,Residential,433
+4,EDIFICIO_COMERCIAL,Commercial building,Edifício comercial,Non-residential,272
+5,SALA_COMERCIAL,Commercial unit or shed,Sala comercial ou galpão,Non-residential,7906
+6,CASA_AREA_VERDE,Dwelling in a green area,Moradia em área verde,Residential,943
+7,BENFEITORIA,Extension of an existing building,Benfeitoria (ampliação),Lot transformation,4908
+8,CASA_SOBRADO,House with two or more storeys,Sobrado,Residential,2711
+9,NAO_IDENTIFICADO,Type cannot be decided from the imagery,Não identificado,Data quality,828
+10,PUBLICO,Public or institutional building,Edificação pública ou institucional,Non-residential,1085
+11,RELIGIOSO,Church or temple,Templo religioso,Non-residential,526
+12,DEMOLICAO,Building removed,Demolição,Lot transformation,392
+13,DEMOLICAO_CONSTRUCAO,Building removed and replaced,Demolição seguida de construção,Lot transformation,371
+14,EM_CONSTRUCAO,Work in progress,Em construção,Lot transformation,11
+15,CONSTRUCAO_PARALIZADA,Halted work,Construção paralisada,Lot transformation,27
