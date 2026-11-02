@@ -8,8 +8,8 @@ license: CC-BY-4.0
 repository-code: "https://github.com/luizmlpascoal/geoinfo-dataset-gyn_obv"
 abstract: >-
   Building-level visual validation and typology labels (16 classes, construction-standard
-  flag and year of emergence) for 55,590 Google Open Buildings v3 footprints lying outside
-  the municipal lot base or on lots registered as vacant in Goiânia, Brazil. Labels were
+  flag and year of emergence) for 55,590 Google Open Buildings v3 footprints detected
+  on lots registered as vacant (without buildings) in the municipal cadastre of Goiânia, Brazil. Labels were
   produced by trained inspectors on Google Earth historical imagery, Street View and Geo360 and
   approved by a supervisor. No owner, cadastral or address information is included.
 keywords:

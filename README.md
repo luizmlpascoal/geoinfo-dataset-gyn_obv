@@ -12,7 +12,7 @@ GYN-OBV records, for each footprint:
 - a construction-standard flag;
 - the year it first appears in the Google Earth image archive.
 
-The footprints are those of most interest for updating the municipal property cadastre: outlines of 50 m² or more that lie outside the municipal lot base or on lots registered as vacant.
+The footprints are outlines of 50 m² or more that Open Buildings detected inside lots registered as vacant (without buildings) in the municipal cadastre; footprints outside the lot base were not considered. Buildings on lots taxed as vacant point to cadastral updates that prevent property-tax (IPTU) evasion, raise revenue that can be redirected to urban improvements and improve territorial management.
 
 The dataset accompanies the paper *GYN-OBV: a building-level visual validation and typology dataset of Google Open Buildings footprints for Goiânia, Brazil*, submitted to GEOINFO 2026, the XXVI Brazilian Symposium on Geoinformatics.
 
@@ -95,7 +95,7 @@ The dataset accompanies the paper *GYN-OBV: a building-level visual validation a
 
 ## Methods in brief
 
-1. **Selection.** All Open Buildings v3 footprints of 50 m² or more lying outside the 2025 municipal lot base or on lots registered as vacant (Mapa Urbano Básico Digital de Goiânia, MUBDG).
+1. **Selection.** All Open Buildings v3 footprints of 50 m² or more inside lots registered as vacant in the 2025 Mapa Urbano Básico Digital de Goiânia (MUBDG). Footprints outside the lot base were not considered.
 2. **Inspection.** Trained inspectors worked neighbourhood by neighbourhood in Google Earth Web. They first located each footprint and browsed its historical imagery at lot scale; when the aerial view was not conclusive, they checked it at street level in Google Street View or in Geo360, the platform of TopoCart with the 2025 imaging survey of Goiânia, made available to the inspectors by the municipality.
 3. **Supervision.** A supervisor reviewed every label and confirmed or corrected it. Only the supervisor-approved label is released.
 

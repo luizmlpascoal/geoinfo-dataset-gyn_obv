@@ -5,7 +5,7 @@ This document describes how the GYN-OBV labels were produced. It is meant to let
 ## 1. Unit of inspection and selection
 
 - **Unit:** one Google Open Buildings v3 polygon. Version 3 distributes only polygons with confidence ≥ 0.65.
-- **Selection:** polygons of 50 m² or more that lie outside the 2025 municipal lot base or on lots registered as vacant (Mapa Urbano Básico Digital de Goiânia). The lot layer was used only for this selection.
+- **Selection:** polygons of 50 m² or more inside lots registered as vacant (without buildings) in the 2025 Mapa Urbano Básico Digital de Goiânia. Footprints outside the lot base were not considered. The lot layer was used only for this selection.
 - **Result:** 55,590 polygons, inspected neighbourhood by neighbourhood.
 
 ## 2. Inspection tools
