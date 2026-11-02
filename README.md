@@ -163,11 +163,6 @@ python scripts/technical_validation.py
 - **Labels** come from visual interpretation of Google Earth and Street View imagery by the authors. No imagery is redistributed.
 - **Administrative units** come from the Mapa Urbano Básico Digital de Goiânia (Prefeitura de Goiânia).
 
-## Related resources
-
-- UrbanMask observation base (Sentinel-2 pixel features and Open Buildings Temporal labels, Goiânia 2020–2023): https://github.com/luizmlpascoal/geoinfo-dataset-urbanmask
-- UrbanMask code and model: https://github.com/ThiagoHF31/urbanMask
-
 ## Acknowledgements
 
 The dataset was produced in the project *Inteligência Artificial Aplicada para promover uma Gestão eficiente do Dinamismo do Município de Goiânia*. The project runs under Convênio nº 4940406/2024 between the Municipality of Goiânia (Secretaria Municipal da Fazenda, SEFAZ) and the Universidade Federal de Goiás (UFG), through the Centro de Excelência em Inteligência Artificial (CEIA), with the Fundação de Apoio à Pesquisa (FUNAPE) as intervening party. We thank the Prefeitura de Goiânia (SEFAZ and SEPLANH), CEIA-UFG and FUNAPE.
