@@ -96,7 +96,7 @@ The dataset accompanies the paper *GYN-OBV: a building-level visual validation a
 ## Methods in brief
 
 1. **Selection.** All Open Buildings v3 footprints of 50 m² or more lying outside the 2025 municipal lot base or on lots registered as vacant (Mapa Urbano Básico Digital de Goiânia, MUBDG).
-2. **Inspection.** Trained inspectors worked neighbourhood by neighbourhood in Google Earth Web. They browsed the historical imagery at lot scale and used Street View when the aerial view was not conclusive.
+2. **Inspection.** Trained inspectors worked neighbourhood by neighbourhood in Google Earth Web. They first located each footprint and browsed its historical imagery at lot scale; when the aerial view was not conclusive, they checked it at street level in Google Street View or in Geo360, the platform of TopoCart with the 2025 imaging survey of Goiânia, made available to the inspectors by the municipality.
 3. **Supervision.** A supervisor reviewed every label and confirmed or corrected it. Only the supervisor-approved label is released.
 
 The full protocol and decision rules are in [`docs/annotation_protocol.md`](docs/annotation_protocol.md).
@@ -131,7 +131,7 @@ Commission error by confidence band:
 - **Not assessed.** Omission (buildings missing from Open Buildings) and outline accuracy were not measured.
 - **Year of emergence is left-censored.** The value is the first archive image showing the building. Peaks in 2002, 2004, 2008 and 2012 coincide with dates of the Google Earth archive, so for older buildings the year means "already present in the first available image". Values from 2016 onwards are the most informative. The year is meaningful only for confirmed buildings (not for codes 0 and 9).
 - **High-standard flag.** The flag is an inspector judgement from combined visual cues; no single cue was applied as an automatic rule. For example, only 250 of the 2,711 two-storey houses are flagged.
-- **Imagery.** Labels depend on the Google Earth archive; Street View is sparser in recently built areas.
+- **Imagery.** Labels depend on the Google Earth archive; street-level imagery is sparser in recently built areas.
 
 ## Usage example
 
@@ -160,7 +160,7 @@ python scripts/technical_validation.py
 - **Data** (`data/`): [Creative Commons Attribution 4.0 International](LICENSE).
 - **Scripts** (`scripts/`): [MIT](LICENSE-CODE).
 - **Outlines, `plus_code`, `confidence` and `area_m2`** derive from [Google Open Buildings](https://sites.research.google/gr/open-buildings/) v3 (Sirko et al. 2021). Google offers that dataset under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) or [ODbL v1.0](https://opendatacommons.org/licenses/odbl/1-0/), at the user's choice; this derivative uses it under CC BY 4.0. Attribution required when reusing GYN-OBV: *“Contains data from Google Open Buildings v3 (Google Research), CC BY 4.0, https://sites.research.google/gr/open-buildings/”* together with the citation of this dataset. See also [`NOTICE`](NOTICE).
-- **Labels** come from visual interpretation of Google Earth and Street View imagery by the authors. No imagery is redistributed.
+- **Labels** come from visual interpretation of Google Earth, Google Street View and Geo360 (TopoCart) imagery by the authors. No imagery is redistributed.
 - **Administrative units** come from the Mapa Urbano Básico Digital de Goiânia (Prefeitura de Goiânia).
 
 ## Acknowledgements

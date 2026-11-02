@@ -10,13 +10,13 @@ This document describes how the GYN-OBV labels were produced. It is meant to let
 
 ## 2. Inspection tools
 
-Inspection used Google Earth Web: historical imagery slider, polygon attribute panel and Street View. No imagery is redistributed with the dataset.
+Inspection started in Google Earth Web (historical imagery slider and polygon attribute panel). Street-level checks used Google Street View or Geo360, the platform of TopoCart with the 2025 imaging survey of Goiânia, made available to the inspectors by the municipality. No imagery is redistributed with the dataset.
 
 ## 3. Procedure per footprint
 
 1. Zoom to lot scale on the most recent image.
 2. Browse the historical imagery. Decide whether a building exists within the outline, and whether it was built, extended or demolished over time.
-3. Use Street View when the aerial view is not conclusive, for example to check type, storeys, use and status.
+3. When the aerial view is not conclusive, check type, storeys, use and status at street level, in Google Street View or in Geo360 (TopoCart, 2025 survey).
 4. Check doubtful cases on at least two image dates.
 5. Record the class, the construction-standard flag and the year of emergence. Never infer a class beyond the evidence; if the type cannot be decided, use `NAO_IDENTIFICADO`.
 
@@ -25,7 +25,7 @@ Inspection used Google Earth Web: historical imagery slider, polygon attribute p
 | Situation | Label |
 |---|---|
 | Outline over paved yard, bare soil, weedy plot or shadow, with no building | `FALSO_POLIGONO` (0) |
-| A building is present but its type cannot be decided from aerial imagery or Street View | `NAO_IDENTIFICADO` (9) |
+| A building is present but its type cannot be decided from aerial or street-level imagery | `NAO_IDENTIFICADO` (9) |
 | New volume attached to, or on the same lot as, an existing building, adding built area | `BENFEITORIA` (7) |
 | Independent dwelling with one storey | `CASA_TERREA` (1); two or more storeys: `CASA_SOBRADO` (8) |
 | Dwelling inside a walled, gated residential development | `CASA_COND_FECHADO` (2) |
